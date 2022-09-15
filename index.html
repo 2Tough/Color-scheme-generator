@@ -7,29 +7,37 @@
     <link href="stylesheet" rel="style.css">
     <title>Color scheme app</title>
 </head>
-    <body>
-        <div class="container">
-            <div class="top-container">
-                <div class="box-1"></div>
-                <div class="box-2"></div>
-                <div class="box-3"></div>
-            </div>
-            <div class="middle-container">
-                <div class="colors"></div>
-                <div class="colors"></div>
-                <div class="colors"></div>
-                <div class="colors"></div>
-                <div class="colors"></div>
-            </div>
-             <div class="bottom-container">
-                <div class="code"></div>
-                <div class="code"></div>
-                <div class="code"></div>
-                <div class="code"></div>
-                <div class="code"></div>
-            </div>
+<body>
+    <div class="container">
+        <div class="top-container">
+            <div class="box-1"></div>
             
+              <label for="cars"></label>
+                <select id="colorsTo" name="colors">
+                    <option value="Monochrome">Monochrome</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                    <option value="Option 4">Option 4</option>
+                </select>
+
+            <button class="box-3">Get color scheme</button>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <div class="middle-container">
+            <div class="colors"></div>
+            <div class="colors"></div>
+            <div class="colors"></div>
+            <div class="colors"></div>
+            <div class="colors"></div>
+        </div>
+         <div class="bottom-container">
+            <div class="code"></div>
+            <div class="code"></div>
+            <div class="code"></div>
+            <div class="code"></div>
+            <div class="code"></div>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
 </html>
