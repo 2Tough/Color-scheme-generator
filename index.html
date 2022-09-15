@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="stylesheet" rel="style.css">
+    <link href="style.css" rel="stylesheet">
     <title>Color scheme app</title>
 </head>
 <body>
@@ -14,13 +14,17 @@
             
               <label for="cars"></label>
                 <select id="colorsTo" name="colors">
-                    <option value="Monochrome">Monochrome</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
-                    <option value="Option 4">Option 4</option>
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome dark</option>
+                    <option value="monochrome-light">Monochrome light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic complement">Analogic complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
                 </select>
 
-            <button class="box-3">Get color scheme</button>
+            <input type='color' id='color-selected' class="box-3">
         </div>
         <div class="middle-container">
             <div class="colors"></div>
