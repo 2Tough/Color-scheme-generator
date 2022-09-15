@@ -1,3 +1,43 @@
-body {
+html, body {
     margin: 0;
+    padding: 0;
 }
+
+.container {
+    width: 400px;
+    height: 400px;
+    background: pink;
+    margin: 3rem auto;
+    border: black 5px solid;
+    
+}
+
+.top-container {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: greenyellow;
+}
+
+.middle-container {
+    display: flex;
+    height: 300px;
+    
+}
+.colors {
+    background: blue;
+    width: 80px;
+    border: white 1px solid;
+}
+
+.bottom-container {
+    display: flex;
+    height: 40px;
+}
+
+.code {
+    background: yellow;
+    width: 80px;
+    border: white 1px solid;    
+}
+
